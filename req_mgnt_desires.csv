@@ -1,0 +1,152 @@
+﻿Title,Requirements Description
+User Interface/Accessibility,The solution shall offer a web based publication/access mechanism so stakeholders don't need to login to a client application
+Comment management,"The solution shall offer a peer review capability -- where comments can be made, alerts sent to the author, comments can ber threaded/adjudicated, and eventually closed"
+Hierarchial copy/paste/move,The solution shall be able to cut/copy/paste object hierarchies (multiple objects w parent/child/grandchild relationships) both across and within modules.
+Change Management - Process,"Change management process shall provide a workflow and  in tool support to manage states of objects.
+Process shall provide Inclusion / Exclusion of objects based on state for view, export, metrics"
+Import IBM DOORS data,The solution shall import requirements from IBM Rational DOORS in order to support NGC organizations.
+User interface customizations,The solution requires the solution's user interface be configurable and customizable views.
+Attribute Types - notes and attributes,"The solution shall provide the ability to add attributes and notes to a requirements. For example:
+• Requirement ID
+• Requirement Name
+• Requirement Location
+• Requirement Text
+• Requirement Category
+• Requirement Type
+• Requirement Status
+• Requirement Rationale
+• Requirement Comment"
+Export IBM DOORS data,The solution shall export requirements to IBM Rational DOORS in order to support NGC organizations.
+User and technical training,"The solution requires the supplier provide user and technical support training to enable self-support (i.e., train-the-trainer)."
+Concurrent user count,"Solution shall concurrently support a user count of X in order to plan strategies, environments and cost."
+Requirements analysis,"The solution shall provide the ability to analyze, validate, and recommend the syntax and semantics of requirements based on industry standards (e.g.,  INCOSE (International Council on Systems Engineering)."
+User interface search and filter,"The solution shall provide filters and search capabilities to discover requirements entries (e.g., key word, exact wording, wildcards, excluded words, logical or boolean expressions, start with, contains, is empty, is equal to, within a category, etc.)"
+User documentation,The solution requires user based documentation to assist user self help.
+Technical documentation,The solution requires technical documentation to assist self help.
+Multi-level requirements traceability,"The solution shall support multi-level traces (i.e., grandparent, parent, child, grandchild, sibling through test, bug tracking, etc."
+Electronic Approvals,"The solution shall  provide the ability to request electronic approval of one or more requirements containing the approver's name, role, and approval date."
+Change Management - Process,The solution shall restrict any modification to be made to past iterations of a given version.
+Metrics Reporting,The solution shall generate progress and status metric reports.
+Data classification,"The solution shall allow requirements to be marked by user defined markings (e.g., unclassified, classified, etc.)."
+Requirements history,"The solution shall track X number of changes made to requirements. (e.g.,  who, what, when, why)."
+Data archival,"The solution requires provide a data archival capability. The capability must support retention management which should be policy-based with a minimum, data expiration and deletion capability."
+Data import / Export,"The solution requires the capability to import/export files in different formats (e.g., Adobe Acrobat .pdf, Microsoft Excel .xlsx, Microsoft Word .docx, comma separated .csv, Extensible Markup Language .xml, etc.)"
+Reports - requirements traceability,The solution shall generate traceability matrices to visualize relationships between requirements.
+Synchronize of attributes,The solution shall synchronize attributes with multiplicity equal to and greater than [0..1].
+Create authoring templates,"The solution shall provide a template for authoring requirements (e.g., an Author Requirements Form)."
+Baseline Description,The solution shall provide the ability to set the baseline description.
+Create New Requirement,"The solution requires for each Source Node Requirement in the Source that does not exist in the Target, request that a new Requirement be created."
+Requirement Hierarchy,The solution shall allow the creation of new Requirement Nodes in the Target within its hierarchy as defined by the Source.
+Synchronization Links attributes,"The solution shall, at each end of a synchronization link, include the following information:
+• Database Repository
+• Database Project
+• Element Name
+• Element Type
+• Element ID
+• Source Database Project Version
+• Most Recent Sync Date"
+Synchronization between source and target,The solution shall maintain synchronization links between Source and Target elements within a centralized location.
+Synchronization Links Status,"The solution shall maintain synchronization links status (TBR).
+• New - Source element that is not yet in the Target Repository Node scope
+• Pending Change - Source Element with Target Element(s) Property Value(s) are currently different.
+• Pending Delete - Source element no longer exists for a Target element.
+• Aligned - Source element and Target element(s) are synchronized with equivalent Property Values."
+Requirement validation / verification,"The solution shall provide the following requirement validation and verification method: Document review, Inspection, Demonstration, Test, Analysis / Simulation, prototype / pilot"
+Source Document,The solution shall import the selected source document file as a Requirement Specification into discrete database Requirement objects.
+Synchronize Requirement attributes,"The solution shall provide the capability to synchronize requirements via the requirements attributes (e.g., discovering correlations between Boolean, Enumeration, Numerical, Text that includes OLE)."
+"User interface views, access and permissions",The solution shall allow administrators manage group-based and role-based access and permissions within their requirements instance so that they can self maintain user access and permissions.
+Requirements analysis,The solution shall have built-in analysis tools that include filtering of specific relationships to navigate object relationships.
+Attribute Definition/Configurable Fields,"The solution shall allow users to define data fields including types of data that may be entered into the field for each data set. (Enumerations, Standard Dates, Boolean, String, Text, etc.)"
+Baseline history,The solution shall prevent changes to the baseline as an element of change management.
+Change Management,"The solution shall have a visual indicator of the state of an object including Deleted, New, Modified, Unsaved."
+Collaboration,"The solution shall allow multiple users to edit each set of information simultaneously and in real time.
+Note: Record locking at the individual item level is acceptable."
+Requirement Hierarchy,The solution shall support a hierarchical organization of data allowing for heading and indented text.
+Reports - Volatility,"The solution shall report on object/requirement volatility.
+Note: volatility is defined as requirement changes over time. Attributes that define volatility shall be defined by Administrator."
+History Information,"The solution shall display on demand the full history of a given object including who, when, what, date range, redlines, and all attributes."
+History Information,The solution shall insert a column showing deltas for user selected attribute based on history or change control mechanism.
+Link Manipulation,The solution shall allow for links to be copied or moved from one object to another.
+Object Edit - merge and split,The solution shall support object merging and splitting.
+Personal Views,The solution shall allow users to create their own views.
+Report - Generation,"The solution allow the development, implementation, and execution of reports of defined sets of standards in customizable document-like format."
+Requirement Relationships,The solution shall allow association of a high-level Requirement to a lower level requirement.
+Revert changes,The solution shall allow users to revert changed data to a previous version selected.
+Run Scripts on Demand,The solution shall allow users to run built in or non-proprietary customized scripts from a menu prompt.
+Schemas,The solution shall allow a schema to be applied to a project.
+Sorting,The solution shall allow data to be sorted within a data set based on a column/attribute label.
+Spelling,The solution shall have spell check.
+Standard Dates,The solution shall store user-entered dates in normalized/auto-formatted date-typed fields.
+Tables,The solution shall support tables.
+Tool Bars,The solution shall allow for customization of toolbar information for users.
+Reports - requirements traceability,"The solution shall allow trace relationship reports to be generated in a waterfall format based on specification level.
+Note: The report shall allow for exclusions and tailoring of types of modules/collections to include."
+Reports - User statistics,The solution shall report user statistics including username and group membership.
+Reports - Verification Burndown,"The solution shall report status of verification based on objective evidence ECD information in a burn down format.
+Note: Burndown formats include history over time of real time closure of requirements and forecasted closure date."
+Reports - Serialized Verification,The solution shall allow for verification reporting based on a serialized/missionized deliverable.
+Version Comparison,The solution shall display a comparison of two user-selected versions of a specification upon command. (Redlined exports)
+Views,The solution shall allow curated displays of data to be saved.
+Views - Copy Views,The solution shall allow a view to be copied from one module to another including attributes in the view.
+Views - Edit Views,"The solution shall allow views to be deleted, updated and saved."
+Editorial Functions,"The solution shall have editorial functions including color, fonts, text (sizing, bolding, italicizing, formatting, find/replace,  superscript, subscript) to aid visualization."
+Report - Workflow status,The solution shall provide a workflow capability for requirements development and approvals to provide visibility into the requirements status.
+Agile support,The solution shall support the principles of Agile methodologies.
+Reports - requirements traceability,"The solution shall provide full bi-directional traceability throughout the development life cycle for hardware, software, engineering, etc. phases."
+Requirements capture,The solution shall store attachments.
+Requirements project reuse,The solution shall import requirements from another project within the same requirements tool for re-use.
+Artificial intelligence,"The solution shall utilize artificial intelligence to generate user stories and requirements, and diagrams."
+Graphical view of requirements structure,The solution shall allow the create of a graphical representation of the requirements structure.
+Global parameters,The solution shall provide global parameters (variables) for use across projects.
+Multi Tenancy,The solution shall allow multiple projects to reside in the same system.
+New Requirement,The solution shall create a new requirement at the requested location.
+Object Edit - merge and split,The Solution shall support object merging and splitting.
+Prevent Deletion of Baselined Content,The solution shall allow the baselined information be viewable even if items are deleted in the future.
+Project Customization,The solution shall allow for schema modification across projects.
+Views - View Control,The solution shall allow for views to be permission controlled.
+Reports - requirements traceability,The solution shall navigate to source and target element from the traceability matrix.
+Reports - batch mode or scheduled execution,The solution shall provide report generation of reports in batch mode or scheduled execution.
+Interface - glossary,Solution shall support an interface to a terminology(glossary) or domain knowledge.
+Requirements analysis,The solution shall verify requirements conformity to predefined templates.
+New Requirement,Manually insert a new requirement with automatic creation of links to the related requirements and attributes inheritance
+Report - User defined,"The solution shall provide report generation by user defined criteria (e.g., attributes, codes, etc.)."
+Report - Validation plan exception,The solution shall provide exception reports on requirements that are not linked to test plan.
+Import comparison,"The solution Identify changes in requirements when re-importing source file (new, changed, unchanged)"
+Baseline - comparison,The solution shall generating reports that compare and contrast baselines versions
+Baseline - signatures,"The solution shall allow baseline signatures in order to document approval authority.
+RW: Change this priority to could have."
+Archive for Customer Submittal,The solution shall allow for module level and project level file generation to share with customers. Ex ReqIF or other file formats
+Baseline - snapshots,"The solution shall support baselines (captured in an unchangeable format), allowing snapshots of requirements at various stages."
+Baseline - version control,"The solution shall include the following on the Create Baseline Form:
+• Version - required Field Major and Minor versions available.
+• Description - required Field"
+Bi-directional Navigation Traceability,The solution shall display bi-directionally related items upon request.
+Change Management,The solution shall allow revisions to a standard shall statement.
+Change Management,The solution shall restrict modifications to selected attributes once in a controlled state.
+Change Management - Process,The solution shall have change management states for Configuration Management purposes.
+Collection Properties,The solution shall allow for attribute information to be collected at the object and module level.
+Delete stages,"The Solution shall allow soft (temporary)  and hard (permanent) deletion of requirements and full specifications, associated attributes and links, including objects with their hierachy."
+Document Generation,The solution shall allow specifications to be generated to templates that include data defined by Administrator. Configurable Exports and output types.
+Manage Relationship Between Requirements,The solution shall allow defined requirement relationships between requirement levels/specifications (directionality).
+Editorial Functions,The solution shall allow an offline editing function that automatically reconciles the edits with the database so that you do not have to work within the application to input information.
+Unique Requirement ID,The requirements management system shall create unique requirement identifiers (REQID) to distinguish requirements uniquely from each other
+Tracking Requirement Updates,The requirements management system shall track history of requirement updates
+Approval of Proposed Requirement Updates,The requirements management system shall have the ability to provide comments/feedback to the update
+Change History and Requirement Comparison,The requirements management system shall track the history of changes and the documented rationale for a requirement change
+Attributes for Requirements,The requirements management system shall have the ability to create editable attributes for requirements
+Comparing Requirements to Previous Versions,The requirements management system shall have the ability to compare uncomitted changes to previous versions
+Bidirectional Requirements Traceability,The requirements management system shall provide bidirectional requirements traceability
+Requirements CRUD,"The requirements management system shall provide the ability to create, read, update, and delete requirements"
+Export,"The requirements management system shall be able to export requirements to standard  formats Excel, Word, and CSV"
+Export Templates,The requirements management system shall accept templates for the generation of requirements exports
+Traceability to Source,"The requirements management system shall trace requirements to their source, such as document, trade study, workshop, or interview"
+Filtering,The requirements management system shall provide a filtering capability
+Graphics,The requirements management system shall store standard format graphics 
+Reverting,The requirements management system shall allow users to revert to previous versions of requirements
+Sorting,The requirements management system shall allow data to be sorted by attribute
+Exporting Native,The requirements management system shall export requirements into a tool native format
+Importing Native,The requirements management system shall import requirements from a tool native format
+Importing from CSV,The requirements management system shall import requirements from a CSV file
+Multiple Access Levels,"The requirements management system shall provide multiple user access levels, to include at a minimum Admin, Regular, Read Only"
+Locking,The requirements management system shall prevent users from simultaneously editing the same requirement. 
+Version Identifier,"The requirements management system shall have the ability to mark a set of requirements with a version identifier (e.g. specification release, baseline, milestone)"
